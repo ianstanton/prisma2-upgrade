@@ -301,7 +301,7 @@ function interactive_confirmation {
   if ! [ "$CONT" = "y" ]; then
     exit 1
   fi
-  echo "Upgrading Astronomer to version $UPGRADE_TO_VERSION from version $CURRENT_CHART_VERSION, and Airflow helm charts to version $UPGRADE_TO_VERSION_AIRFLOW"
+  echo "Upgrading Astronomer to version prisma2 release from version $CURRENT_CHART_VERSION, and Airflow helm charts to version $UPGRADE_TO_VERSION_AIRFLOW"
   read -r -p "Continue? (y/n) " CONT
   if ! [ "$CONT" = "y" ]; then
     exit 1
